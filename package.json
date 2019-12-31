@@ -10,7 +10,8 @@
   "dependencies": {
     "bulma": "^0.8.0",
     "core-js": "^3.4.3",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "xlsx": "^0.15.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",

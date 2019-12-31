@@ -17,7 +17,10 @@ npm run serve
 ```
 
 buka pada halaman http://localhost:8081
-![table](https://github.com/maulana20/vue-random-position/blob/master/image/dashboard.PNG)
+![dashboard](https://github.com/maulana20/vue-random-position/blob/master/image/dashboard.PNG)
 
 jalankan random
-![table](https://github.com/maulana20/vue-random-position/blob/master/image/random.PNG)
+![random](https://github.com/maulana20/vue-random-position/blob/master/image/random.PNG)
+
+hasil export
+![excel](https://github.com/maulana20/vue-random-position/blob/master/image/excel.PNG)
