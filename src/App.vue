@@ -32,14 +32,14 @@
 					</div>
 				</div>
 				<div class="columns" id="result-wrapper">
-					<div class="column is-4" v-for="data in group_member">
+					<div class="column is-4" v-for="data in group_member" :key="data.group">
 						<div class="card">
 							<div class="card-header">
 								<h1 class="card-header-title">Group {{ data.group }}</h1>
 							</div>
 							<div class="card-content">
 								<ol style="padding-left:10px;">
-									<li style="margin-bottom:5px;" v-for="country in data.member">
+									<li style="margin-bottom:5px;" v-for="country in data.member" :key="country">
 										{{ country }}
 									</li>
 								</ol>
@@ -57,7 +57,7 @@
 							</div>
 							<div class="card-content">
 								<ol style="padding-left:10px;">
-									<li style="margin-bottom:5px;" v-for="country in country_list">
+									<li style="margin-bottom:5px;" v-for="country in country_list" :key="country">
 										{{ country }}
 									</li>
 								</ol>
